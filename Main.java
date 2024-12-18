@@ -16,5 +16,6 @@ public class Main {
         for (double n : newTemps) newList.add(n);
         w = new WeatherData(newList);
         System.out.println(w.longestHeatWave(100.5));
+        System.out.println(w.longestHeatWave(95.2));
     }
 }
